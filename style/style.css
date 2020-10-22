@@ -58,7 +58,7 @@
     background-color: var(--light-grayish-violet);
     border-radius: 40px;
     border: .7rem solid #fff;
-    box-shadow: 0 3rem 3rem rgba(215, 213, 218, .8);
+    box-shadow: 0 3rem 3rem rgba(0, 0 , 0, .2);
     margin: 2rem auto 6rem;
     width: 17.5rem;
    }
