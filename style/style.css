@@ -300,3 +300,43 @@
 
     }
    }
+
+   @keyframes fadeFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-2em);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+   }
+
+   @keyframes fadeFromBottom {
+    from {
+      opacity: 0;
+      transform: translateY(2em);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+   }
+
+   @keyframes fadeFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-2em);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+   }
+    
+   .chat-content {
+    animation: fadeFromTop 2s forwards;
+   }
+   #description {
+    animation: fadeFromBottom 2s forwards;
+   }
